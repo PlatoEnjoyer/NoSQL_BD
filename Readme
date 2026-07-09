@@ -1,0 +1,20 @@
+Примеры команд для программы:
+
+:: Вставка записи
+target\release\akv_mem.exe data.db insert "username" "ivan_developer"
+
+:: Получение записи
+target\release\akv_mem.exe data.db get "username"
+
+:: Обновление записи
+target\release\akv_mem.exe data.db update "username" "new_developer"
+
+:: Удаление записи
+target\release\akv_mem.exe data.db delete "username"
+
+:: Работа с другой базой данных
+target\release\akv_mem.exe my_data.db insert "city" "Moscow"
+
+:: Использование версии с индексом на диске
+target\release\akv_disk.exe data.db insert "country" "Russia"
+target\release\akv_disk.exe data.db get "country"

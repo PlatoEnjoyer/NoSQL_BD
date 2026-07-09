@@ -1,0 +1,37 @@
+==========================================
+  DEMONSTRATION OF KEY-VALUE STORAGE
+==========================================
+
+[1] Removing old data file...
+
+[2] Building project...
+
+[3] Inserting record...
+
+[4] Getting record by key...
+[105, 118, 97, 110, 95, 100, 101, 118, 101, 108, 111, 112, 101, 114]
+
+[5] Inserting multiple records...
+
+[6] Getting all records...
+[105, 118, 97, 110, 95, 100, 101, 118, 101, 108, 111, 112, 101, 114]
+[77, 111, 115, 99, 111, 119]
+[50, 53]
+
+[7] Updating record...
+
+[8] Checking update...
+[83, 97, 105, 110, 116, 32, 80, 101, 116, 101, 114, 115, 98, 117, 114, 103]
+
+[9] Deleting record...
+
+[10] Checking deletion...
+[]
+
+[11] Demonstration of akv_disk...
+[82, 117, 115, 115, 105, 97]
+
+==========================================
+  DEMONSTRATION COMPLETED
+==========================================
+Press any key to continue . . . 
