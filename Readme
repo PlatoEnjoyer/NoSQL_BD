@@ -1,4 +1,4 @@
-Примеры команд для программы:
+Примеры команд для использования программы:
 
 :: Вставка записи
 target\release\akv_mem.exe data.db insert "username" "ivan_developer"
